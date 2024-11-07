@@ -10,7 +10,7 @@ export default function MainNav() {
     // const [color, setColor] = useState('#000')
 
     useEffect(() => {
-        window.addEventListener('scroll', e => {
+        window.addEventListener('scroll', () => {
             if (window.scrollY > 0)
                 setLogoState('scroll-down')
             else
