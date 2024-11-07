@@ -1,0 +1,176 @@
+.logo-container {
+    display: block;
+    position: absolute;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.logo-container.base {
+    left: 50%;
+    top: 150%;
+    width: 100%;
+}
+
+.logo-container.scroll-down {
+    animation: scroll-down .5s ease-in-out 0s 1 normal forwards;
+}
+
+.logo-container.scroll-up {
+    animation: scroll-up .5s ease-in-out 0s 1 normal forwards;
+}
+
+.logo-container img {
+    width: 100%;
+}
+
+.link-active {
+    color: #E3CDB4;
+}
+
+.nav a {
+    font-style: italic;
+}
+
+@keyframes scroll-down {
+    0% {
+        left: 50%;
+        top: 150%;
+        width: 100%;
+    }
+
+    100% {
+        left: 23%;
+        top: 50%;
+        width: 9rem;
+    }
+}
+
+@keyframes scroll-up {
+    0% {
+        left: 23%;
+        top: 50%;
+        width: 9rem;
+    }
+
+    100% {
+        left: 50%;
+        top: 150%;
+        width: 100%;
+    }
+}
+
+
+@media (min-width:768px) {
+    .logo-container.base {
+        left: 50%;
+        top: 180%;
+        width: 70%;
+    }
+
+    @keyframes scroll-down {
+        0% {
+            left: 50%;
+            top: 180%;
+            width: 70%;
+        }
+
+        100% {
+            left: 50%;
+            top: 50%;
+            width: 9rem;
+        }
+    }
+
+    @keyframes scroll-up {
+        0% {
+            left: 50%;
+            top: 50%;
+            width: 9rem;
+        }
+
+        100% {
+            left: 50%;
+            top: 180%;
+            width: 70%;
+        }
+    }
+}
+
+@media (min-width:1024px) {
+    .logo-container.base {
+        left: 50%;
+        top: 200%;
+        width: 70%;
+    }
+
+    @keyframes scroll-down {
+        0% {
+            left: 50%;
+            top: 200%;
+            width: 70%;
+        }
+
+        100% {
+            left: 50%;
+            top: 50%;
+            width: 9rem;
+        }
+    }
+
+    @keyframes scroll-up {
+        0% {
+            left: 50%;
+            top: 50%;
+            width: 9rem;
+        }
+
+        100% {
+            left: 50%;
+            top: 200%;
+            width: 70%;
+        }
+    }
+}
+
+@media (min-width: 1536px) {
+    .logo-container.base {
+        left: 50%;
+        top: 230%;
+        width: 70%;
+    }
+
+    @keyframes scroll-down {
+        0% {
+            left: 50%;
+            top: 230%;
+            width: 70%;
+        }
+
+        100% {
+            left: 50%;
+            top: 50%;
+            width: 9rem;
+        }
+    }
+
+    @keyframes scroll-up {
+        0% {
+            left: 50%;
+            top: 50%;
+            width: 9rem;
+        }
+
+        100% {
+            left: 50%;
+            top: 230%;
+            width: 70%;
+        }
+    }
+}
+
+/* 
+    sm	640px	@media (min-width: 640px) { ... }
+    md	768px	@media (min-width: 768px) { ... }
+    lg	1024px	@media (min-width: 1024px) { ... }
+    xl	1280px	@media (min-width: 1280px) { ... }
+    2xl	1536px	@media (min-width: 1536px) { ... }
+*/
