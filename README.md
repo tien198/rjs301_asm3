@@ -8,6 +8,9 @@
 
 `git submodule update`
 
+### To clone projects
+
+`git clone --recurse-submodules https://github.com/tien198/rjs301_asm3`
 
 # This project actually contains two Project Submodules:
 
@@ -17,6 +20,6 @@
 
 ### 2 projects should be run concurrently
 
-npm i
+`npm i`
 
-npm start
+`npm start`
