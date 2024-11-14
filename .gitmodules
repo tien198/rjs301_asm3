@@ -1,0 +1,7 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/tien198/rjs301_ams3_backend
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/tien198/rjs301_ams3_frontend
+
